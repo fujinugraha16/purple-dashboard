@@ -19,6 +19,8 @@ pnpm dev
 https://purple-dashboard.vercel.app
 
 DUMMY CREDENTIAL
+```bash
 user: dpierrof
 pass: Vru55Y4tufI4
+```
 
