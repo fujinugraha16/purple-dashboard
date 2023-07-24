@@ -1,6 +1,11 @@
 ## Getting Started
 
-First, run the development server:
+Install
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -11,5 +16,6 @@ pnpm dev
 ```
 
 ## Demo Page
+https://purple-dashboard.vercel.app
 
 
