@@ -18,4 +18,7 @@ pnpm dev
 ## Demo Page
 https://purple-dashboard.vercel.app
 
+DUMMY CREDENTIAL
+user: dpierrof
+pass: Vru55Y4tufI4
 
