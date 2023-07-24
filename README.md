@@ -16,7 +16,7 @@ pnpm dev
 ```
 
 ## Demo Page
-https://purple-dashboard.vercel.app
+https://purple-dashboard-fn.vercel.app
 
 DUMMY CREDENTIAL
 ```bash
