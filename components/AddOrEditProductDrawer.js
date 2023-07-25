@@ -227,9 +227,28 @@ const AddOrEditProductDrawer = ({ open, toggle, brands, categories, productsLeng
               <small className="text-red-500">{errors.category.message}</small>
             )}
           </div>
+
+          <div className="flex sm:hidden flex-col gap-2 w-full mt-3">
+            <button
+              className="flex justify-center items-center px-3 gap-1 border border-purple-500 bg-purple-500 hover:bg-purple-600 rounded-lg w-full h-10 text-sm text-white font-medium"
+              type={isLoading ? "button" : "submit"}
+              form={!isLoading && "add-or-edit-product"}
+              disabled={isLoading}
+            >
+              {isLoading ? "Please wait..." : "Save"}
+            </button>
+            <button                
+              className="flex justify-center items-center px-3 gap-1 border border-yellow-500 hover:bg-yellow-500 rounded-lg w-full h-10 text-sm text-yellow-500 hover:text-white font-medium"
+              onClick={toggle}
+              type="button"
+              disabled={isLoading}
+            >
+              Cancel
+            </button>
+          </div>
         </form>
 
-        <div className="absolute bottom-4 right-0 w-full">
+        <div className="hidden sm:block absolute bottom-4 right-0 w-full">
           <div className="flex justify-between gap-2 w-full px-4">
             <button                
               className="flex justify-center items-center px-3 gap-1 border border-yellow-500 hover:bg-yellow-500 rounded-lg w-1/2 h-10 text-sm text-yellow-500 hover:text-white font-medium"
